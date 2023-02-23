@@ -1,0 +1,39 @@
+.newToDo {
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.newToDo button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #011513;
+  background-color: #1ad1b9;
+  color: black;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.newToDo button:hover,
+.newToDo button:active {
+  background-color: #05b59e;
+  border-color: #02382e;
+  color: white;
+}
+
+.newToDo button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.newToDo button.alternative:hover,
+.newToDo button.alternative:active {
+  background-color: #ddb3f8;
+}

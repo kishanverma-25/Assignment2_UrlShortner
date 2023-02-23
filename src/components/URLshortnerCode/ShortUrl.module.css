@@ -1,0 +1,28 @@
+.copy {
+  font: inherit;
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+  color: white;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.15rem;
+  border-radius: 30px;
+}
+.control textarea {
+  margin: 2rem;
+  flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #025b4f;
+  background: #dbf5f1;
+}
+.control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
